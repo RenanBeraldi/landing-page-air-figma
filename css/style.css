@@ -365,3 +365,145 @@ body{
 }
 
 /* END SECTION FEATURES LIST */
+
+
+
+/* PRICING SECTION */
+
+.section-pricing{
+    background-color: #F8F9FF;
+    padding: 11.2rem 0;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+}
+
+.pricing-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+
+    text-align: center;
+    width: 73.3rem;
+    margin: 0 auto;
+}
+
+.pricing-text-box .secondary-heading{
+    padding: 0 2.85rem;
+}
+
+.pricing-text-box .paragraph-section{
+    font-size: 1.6rem;
+}
+
+.pricing-plans{
+    gap: 3.2rem;
+}
+
+.pricing-plan{
+    padding: 3.2rem;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.pricing-plan-heading{
+    padding-bottom: 2.9rem;
+    border-bottom: 0.8px solid #9FCDFF;
+}
+
+.pricing-plan-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2.1rem;
+
+    width: 259px;
+    padding-top: 4.6rem;
+}
+
+.pricing-plan-text-box .secondary-heading{
+    color: #0E1133;
+}
+
+.pricing-plan-text-box .secondary-heading span{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 155%;
+    color: #71717A;
+    margin-left: 2.4rem;
+}
+
+.pricing-plan-paragraph{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 120%;
+    color: #505056;
+}
+
+.pricing-plan-list{
+    padding-right: 4.3rem;
+}
+
+.pricing-plan-features{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    padding-right: 4.3rem;
+    margin-top: 3.2rem;
+}
+
+.pricing-plan-features li{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 120%;
+}
+
+.check-icon-plan{
+    width: 2rem;
+    height: 2rem;
+}
+
+.pricing-plan-check{
+   margin-top: 4rem;
+}
+
+.plan-btn:link,
+.plan-btn:visited{
+    padding: 1.6rem 5rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 120%;
+    text-decoration: none;
+    color: #007AFF;
+    border: 1px solid #007AFF;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.plan-btn:hover,
+.plan-btn:active{
+    background-color: #0052cc;
+    color: #fff;
+}
+
+.pricing-plan-top{
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+        0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+}
+
+.pricing-plan-check .btn{
+    padding: 1.6rem 5rem;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+/* END PRICING SECTION */
